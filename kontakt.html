@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – GIPS-MIR GmbH</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+
+    header {
+      background-color: #1d1d1d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    section {
+      padding: 60px 20px;
+      background-color: #ffffff;
+    }
+
+    .kontakt-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .kontakt-text {
+      flex: 1 1 300px;
+    }
+
+    .kontakt-text h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .kontakt-text p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .kontakt-bild {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .kontakt-bild img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #1d1d1d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .kontakt-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Logo.png" alt="GIPS-MIR Logo">
+    <h1>GIPS-MIR GmbH</h1>
+    <p>Wir gipsen die Wände unserer Kunden und die Arme unserer Feinde</p>
+  </header>
+
+  <nav>
+    <a href="Startseite.html">Start</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="leistungen.html">Leistungen</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+
+  <section>
+    <div class="kontakt-container">
+      <div class="kontakt-text">
+        <h2>Kontakt</h2>
+        <p><strong>Email:</strong> info@gips-mir-gmbh.ch</p>
+        <p><strong>Telefon:</strong> +41 44 345 18 18</p>
+        <p>Wir freuen uns über Ihre Anfrage – denn zufriedene Kunden sind unser größter Erfolg!</p>
+      </div>
+      <div class="kontakt-bild">
+        <img src="buero.png" alt="Unser Büro">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Kontakt:</strong></p>
+    <p>Email: info@gips-mir-gmbh.ch</p>
+    <p>Telefon: +41 44 345 18 18</p>
+    <p>&copy; 2025 GIPS-MIR GmbH – Alle Rechte vorbehalten</p>
+  </footer>
+
+</body>
+</html>
